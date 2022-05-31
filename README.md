@@ -23,26 +23,8 @@ The data is stored as name value pairs as shown below:
 Specific bike station id's are selected from the above file to perform further analysis.
 
 
-Execution 1:
-The BikeStationCode python file contains the code about utilizing object oriented programming concepts to create a bikestation object that has a constructor and
-multiple methods.
-
-Some of the steps involved:
-1. Create a basic class that can hold all relevant Bike data for an individual bike station 
-2. Appropriately creating a constructor to set all data values.
-3. Use the @property decorator to make the Status in BikeStation class private.
-4. Use the @???.setter method to validate the private property in some way before setting its value.
-5. Creating one or more regular class methods to CALCULATE other relevant bike station values (percentage full, docks in service, etc) from the data attributes 
-   you are storing as a part of the class.
-6. Override the __str__ method to print a string representation of a BikeStation that looks like the String below
-   Paulina St & Howard St had 10 bikes on 2020-11-16 11:55 
-   
-   
-Your output should look something like this:
-
-Paulina St & Howard St had 10 bikes on 2020-11-16 11:55
-Clark St & Jarvis Ave had 1 bikes on 2020-11-16 11:55
-Greenview Ave & Jarvis Ave had 3 bikes on 2020-11-16 11:55
-Bosworth Ave & Howard St had 1 bikes on 2020-11-16 11:55
-Eastlake Ter & Rogers Ave had 2 bikes on 2020-11-16 11:55
-Stations: [515, 517, 520, 522, 523] Bikes Available 17 Docks Available 58
+Steps performed are:
+1. Using object oriented programming techniques to create a BikeStation object with a constructor and multiple methods.
+2. Run a data modeling processes to extract the necessary bike station utilization information from the JSON data and group the data by station.
+3. Run  an analysis to calculate some basic statistics about the data.
+4. Create at least three different types of visualizations of the bike station data you have retrieved and processed and save some plots. 
